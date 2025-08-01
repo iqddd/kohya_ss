@@ -1,9 +1,8 @@
---extra-index-url https://download.pytorch.org/whl/cu124
-torch==2.5.0+cu124
-torchvision==0.20.0+cu124
-xformers==0.0.28.post2
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch
+torchvision
 
-bitsandbytes==0.44.0
+bitsandbytes==0.46.1
 tensorboard==2.14.1
 tensorflow==2.14.0
 wheel

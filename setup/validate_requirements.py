@@ -174,8 +174,8 @@ def main():
     args = parser.parse_args()
 
     # Update git submodules if necessary
-    log.debug("Updating git submodules...")
-    setup_common.update_submodule()
+    # log.debug("Updating git submodules...")
+    # setup_common.update_submodule()
 
     # Check if PyTorch is installed and log relevant information
     log.debug("Checking if PyTorch is installed...")
